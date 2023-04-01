@@ -1,0 +1,50 @@
+:root {
+  --light: #fff;
+}
+
+body {
+  display: block;
+  line-height: 0.8;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #9c7fb6;
+  color: var(--light);
+  border: 3px dotted rgb(55, 38, 69); 
+  }
+
+/* MAKE THIS WORK TOO 
+background-image {
+  background-image: url(./assets/images/purple.jpeg);
+  width: 200px;
+  backdrop-filter: blur(2px);
+}
+*/
+
+h1 {
+  font-size: 50px;
+  color: #513671;
+  padding-left: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 600px;
+  font-size: 30px;
+  list-style: none;
+  padding-right: 20px;
+}
+
+nav a {
+  color: #513671;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color:var(--light);
+}
