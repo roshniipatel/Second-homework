@@ -3,7 +3,6 @@
 }
 
 body {
-  display: block;
   line-height: 0.8;
 }
 
@@ -11,7 +10,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #9c7fb6;
+  background-color: #9bc0eb;
   color: var(--light);
   border: 3px dotted rgb(55, 38, 69); 
   }
@@ -26,8 +25,8 @@ background-image {
 
 h1 {
   font-size: 50px;
-  color: #513671;
-  padding-left: 20px;
+  color: #364271;
+  padding-left: 60px;
 }
 
 nav ul {
@@ -40,7 +39,7 @@ nav ul {
 }
 
 nav a {
-  color: #513671;
+  color: #364b71;
   font-weight: bold;
   text-decoration: none;
 }
@@ -48,3 +47,55 @@ nav a {
 nav a:hover {
   color:var(--light);
 }
+
+.picture {
+  background: url(images/constellations.jpeg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+
+}
+/*
+.picture {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+  background: url(images/constellations.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+*/
+
+.aside {
+  width: 200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 25px;
+  float: left;
+  box-shadow: inset 10px 10px 40px #43559b;
+  font-style: italic bold;
+  font-size: 25px;
+  color: #29427e;
+  text-align: center;
+  position: relative;
+  margin-top: 30px;
+}
+
+.aside-2 {
+  font-size: 20px;
+  float: right;
+}
+
+/*
+.aside-3 {
+  display: none;
+}
+
+.aside-3:hover ul {
+  display: block;
+}
+
+inset 5px 0 5px -5px
