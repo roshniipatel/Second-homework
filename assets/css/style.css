@@ -40,12 +40,16 @@ nav a:hover {
   color: #70a5c9;
 }
 
+.stars {
+  width: 1500px;
+  height: 150px;
+  object-fit: cover;
+  image-orientation: from-image;
+}
+
 div {
-  background: url(/Assets/images/stars.jpeg);
-  background-size: cover;
   display: flex;
   font-size: 25px;
-  padding: 103px;
   color: #364271;
   justify-content: flex-end;
   margin-bottom: 40px;
@@ -56,6 +60,7 @@ div {
   bottom: 480px;
   right: 0px;
   padding-right: 10px;
+  padding-top: 10px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -79,14 +84,18 @@ div {
 
 .aside-2 {
   font-size: 25px;
-  float: right;
   letter-spacing: 3px;
   font-family: 'Courier New', Courier, monospace;
   text-indent: 55px;
   text-align: center;
   padding-left: 200px;
   padding-right: 200px;
+  padding-bottom: 100px;
   line-height: 40px;
+}
+
+.picture {
+  width: 350px;
 }
 
 .work {
