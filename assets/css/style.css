@@ -1,7 +1,3 @@
-:root {
-  --light: #fff;
-}
-
 body {
   line-height: 0.8;
   background-color: #cee7f0;
@@ -13,7 +9,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #ffffff6d;
-  color: var(--light);
+  color: #fff;
 }
 
 h1 {
@@ -52,6 +48,7 @@ div {
   padding: 103px;
   color: #364271;
   justify-content: flex-end;
+  margin-bottom: 40px;
 }
 
 .subtitle {
@@ -67,15 +64,18 @@ div {
   width: 200px;
   padding-left: 15px;
   padding-right: 15px;
+  padding-top: 30px;
   margin-left: 25px;
-  box-shadow: inset 10px 10px 40px #70a5c9;
   font-style: italic;
   font-size: 25px;
+  box-shadow: inset 10px 10px 40px #70a5c9;
   color: #364271;
   text-align: center;
   position: relative;
   margin-top: 30px;
+  margin: auto;
 }
+
 
 .aside-2 {
   font-size: 30px;
