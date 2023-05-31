@@ -7,9 +7,9 @@ I have created a portfolio using HTML and CSS. Implementing what I have learned 
 
 ## Mock-Up
 
-The following demo shows the web application's appearance and functionality:
+The following link shows the web application's appearance and functionality:
 
-[![portfolio demo](https://drive.google.com/file/d/1X238QWw_r-nNbGRex9TXIqVr1mLwMkd-/view)
+https://drive.google.com/file/d/1X238QWw_r-nNbGRex9TXIqVr1mLwMkd-/view 
 
 
 - - -
